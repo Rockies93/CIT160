@@ -1,0 +1,339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pay",
+				"payment"
+			],
+			[
+				"do",
+				"doPayment"
+			],
+			[
+				"nu",
+				"numberOfPaymentPaidToDate"
+			],
+			[
+				"per",
+				"perPeriod"
+			],
+			[
+				"year",
+				"years"
+			],
+			[
+				"to",
+				"toDate"
+			],
+			[
+				"pa",
+				"pay"
+			],
+			[
+				"An",
+				"AnInterest"
+			],
+			[
+				"A",
+				"Aborrowed"
+			],
+			[
+				"a",
+				"aInterest"
+			],
+			[
+				"fut",
+				"Futur"
+			],
+			[
+				"pe",
+				"periodsPerYear"
+			],
+			[
+				"an",
+				"annualRate"
+			],
+			[
+				"ann",
+				"annual-rate"
+			],
+			[
+				"transfor",
+				"transform-style\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"w",
+				"wspeed"
+			],
+			[
+				"tme",
+				"temperature"
+			],
+			[
+				"wind",
+				"windchill"
+			],
+			[
+				"number",
+				"number2"
+			],
+			[
+				"grid-t",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"grid",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"day",
+				"dayOfMonth"
+			],
+			[
+				"total",
+				"total-here"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"correct",
+				"correct"
+			],
+			[
+				"weather",
+				"weather_input"
+			],
+			[
+				"we",
+				"weather"
+			],
+			[
+				"rat",
+				"rateOfChange"
+			],
+			[
+				"t",
+				"text3"
+			],
+			[
+				"tex",
+				"text2"
+			],
+			[
+				"text",
+				"text1"
+			],
+			[
+				"od",
+				"odometer2"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"in",
+				"input\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/raquelebadal/CIT 160/CIT160functions.html",
+		"/home/raquelebadal/KnitHappensBlog/index.html",
+		"/home/raquelebadal/WDD130/FAQ.html",
+		"/home/raquelebadal/KnitHappensBlog/mitty.html",
+		"/home/raquelebadal/KnitHappensBlog/Tutorial1.html",
+		"/home/raquelebadal/WDD130/FAQ/index.html",
+		"/home/raquelebadal/WDD130/FAQ/styles.css",
+		"/home/raquelebadal/WDD130/styles.css",
+		"/home/raquelebadal/CIT 160/CIT160Testing.html",
+		"/home/raquelebadal/WDD130/WDD130Forms.html",
+		"/home/raquelebadal/WDD130/DumbForm.html",
+		"/home/raquelebadal/CIT 160/CIT160Repetition2.html",
+		"/home/raquelebadal/CIT 160/CIT160Exam2Code2.html",
+		"/home/raquelebadal/CIT 160/CIT160Exam2Code1.html",
+		"/home/raquelebadal/CIT 160/CIT160Repetition1.html",
+		"/home/raquelebadal/Budget Website/Home Page/index.html",
+		"/home/raquelebadal/Budget Website/Home Page/styles.css",
+		"/home/raquelebadal/CIT 160/CIT160MathCalculator.html",
+		"/home/raquelebadal/CIT 160/CIT160Logic1.html",
+		"/home/raquelebadal/CIT 160/CIT160Logic2.html",
+		"/home/raquelebadal/CIT 160/CIT160Week8Loop.html",
+		"/home/raquelebadal/CIT 160/CIT160WeatherShoeThing.html",
+		"/home/raquelebadal/CIT 160/CIT160quartstoLJS.html",
+		"/home/raquelebadal/CIT 160/CIT160WeatherShoeThingMichaelEdit.html",
+		"/home/raquelebadal/CIT 160/CIT160Exam1ROCJS.html",
+		"/home/raquelebadal/CIT 160/CIT160Exam1Torus.HTML",
+		"/home/raquelebadal/CIT 160/file1.txt",
+		"/home/raquelebadal/CIT 160/file2.txt",
+		"/home/raquelebadal/CIT 160/CSS160IntrotoJavaScript--NameDoc.html",
+		"/home/raquelebadal/CIT 160/CIT160IntroJS--Template.html",
+		"/home/raquelebadal/CIT 160/CIT160IntrotoJS--Scripture.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "CIT160RepetitionW11.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

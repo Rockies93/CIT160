@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sum of First and Last</title>
+	<script type="text/javascript">
+		function getArray() {
+			let arrayCase = [17, 8, 9, 5, 20];
+			let answer = addEnds(arrayCase);
+			document.getElementById('output').innerHTML = answer;
+		}
+
+		function addEnds(list){
+			let x= list[list.length-1]+list[0];
+			return x; 
+		}
+	</script>
+</head>
+<body>
+	<button onclick="getArray()">Enter</button>
+	<div id="output"></div>
+</body>
+</html>
