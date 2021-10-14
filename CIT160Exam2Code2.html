@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Title</title>
+<script>
+/* Input:3 integers
+ * Processing: 
+ 	1. create a counter that starts on start and ends on end
+  	2. for each number, determine if it is divisable by divisor 
+  	3. if it is, add it to the output 
+ * Output: all integers between start and end that are divible by divisor
+ */
+
+ function divisable() {
+ 	let i = parseFloat(document.getElementById("start").value);
+ 	let final = parseFloat(document.getElementById("end").value);
+ 	let divide = parseFloat(document.getElementById("divisor").value);
+ 	let integers = ""
+
+ 	while (i <= final) {
+ 		if (i % divide == 0) {
+ 			integers += i + " ";
+ 			i++;
+ 		} 
+ 		else {
+ 			i++;
+ 		}
+ 	}
+ 	document.getElementById("output").innerHTML = integers;
+
+ }
+
+</script>
+</head>
+
+<body>
+Start: <input type="text" id="start" size="5"><br>
+End: <input type="text" id="end" size="5"><br>
+Divisor: <input type="text" id="divisor" size="5"><br>
+<button type="button" onclick="divisable()">Click</button>
+<div id="output"></div>
+</body>
+</html>

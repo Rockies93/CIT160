@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Volume of a Torus</title>
+<script>
+	function computeVolume() {
+		
+
+	//Get Input 
+	let a = parseFloat(document.getElementById('inner').value);
+	let b = parseFloat(document.getElementById('outer').value);
+
+	// Calculate Volume
+	let pie = Math.PI * Math.PI;
+	let x = a + b;
+	let y = (a - b) * (a - b);
+
+	let v = pie * x * y / 4;
+
+	// Display Volume 
+
+	document.getElementById('volume').innerHTML = v;
+
+	}
+	
+
+
+</script>
+</head>
+
+<body>
+    <h1>Volume of a Torus</h1>
+    Inner radius <input type="text" id="inner"><br>
+    Outer radius <input type="text" id="outer"><br>
+    <button type="button" onclick="computeVolume()">Volume</button><br>
+    Volume <div id="volume"></div>
+</body>
+</html>

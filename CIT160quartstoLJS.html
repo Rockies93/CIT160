@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallons to Liters</title>
+    <script type="text/javascript">
+function quartoL() {
+    //input from user 
+    let text = document.getElementById('quarts').value;
+    let quarts = parseFloat(text);
+
+    //quarts to liters
+    let liters = quarts * .946353;
+
+    //Display liters to user 
+    document.getElementById("liters").innerHTML = liters;
+}
+    </script>
+  </head>
+  <body>
+    <h1>Enter volume in quarts here</h1>
+    <input type="text" id="quarts">
+    <button type="button" onclick="quartoL()">Enter</button>
+    <div id="liters"></div>
+  </body>
+</html>

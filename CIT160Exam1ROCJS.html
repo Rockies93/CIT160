@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rate of Change Calculator</title>
+	<script type="text/javascript">
+
+		function ROC() {
+			/* defining Table 
+			*input: Current Price, Previous Price 
+			*processing: Calculate Rate of Change using formula
+			*output: Rate of Change
+			*/
+
+
+			//Get input from user 
+			let currPrice = parseFloat(document.getElementById('price1').value);
+			let prevPrice = parseFloat(document.getElementById('price2').value);
+			
+
+			//Calculate ROC
+			let rateOfChange = (currPrice - prevPrice) / prevPrice;
+			
+
+			//Display to user
+			document.getElementById('answer').innerHTML = rateOfChange;
+
+		}
+		
+	</script>
+</head>
+<body>
+
+	Current Price <input type="text" id="price1">
+
+	Previous Price <input type="text" id="price2">
+
+	<button type="button" onclick="ROC()">Enter</button>
+
+	<div id="answer"></div>
+</body>
+</html>
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Powers of 2</title>
+	<script type="text/javascript">
+		
+		function exponentstuff() {
+			let n = 31;
+			let output = "";
+			for (let i=0; i<=n; i++) {
+				let product = Math.pow(2,i);
+				output += product + ", ";
+				document.getElementById("display").innerHTML = output;
+			}
+		}
+
+	</script>
+</head>
+<body>
+<button onclick="exponentstuff()">Click here to see the powers of 2</button>
+<div id="display"></div>
+</body>
+</html>

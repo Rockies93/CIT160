@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function wakeup() {
+			var now = new Date();
+			var month = now.getMonth();
+			var dayOfMonth = now.getDate();
+			var dayOfWeek = now.getDay();
+
+			
+			if ((month == 0 && dayOfMonth == 1) ^ (month == 6 && dayOfMonth == 4) ^ (month == 11 && dayOfMonth == 25)){
+				document.getElementById("output").innerHTML = "Sleep in.";
+			}
+			else if (dayOfWeek == 1 ^ dayOfWeek == 2 ^ dayOfWeek == 3 ^ dayOfWeek == 4 ^ dayOfWeek == 5 ) {
+				document.getElementById("output").innerHTML = "Get Up!";
+			} 
+			else {
+				document.getElementById("output").innerHTML = "Sleep in.";
+			} 
+
+		}
+	</script>
+</head>
+<body>
+	<button type= "button" onclick="wakeup()">Should I sleep in today?</button>
+	<div id="output"></div>
+</body>
+</html>

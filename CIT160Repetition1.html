@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Multiply by 5</title>
+	<script type="text/javascript">
+		
+		function multiplystuff() {
+			let n = 12;
+			let output = "";
+			for (let i=1; i<=n; i++) {
+				let product = i * 5;
+				
+				output += "5 x " + i + " = " + product + "<br />";
+				document.getElementById("display").innerHTML = output;
+			}
+		}
+
+	</script>
+</head>
+<body>
+<button onclick="multiplystuff()">Click here to see the 5's multplication table</button>
+<div id="display"></div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang= "en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Final Stuff</title>
+
+	<script>
+		function problem2() {
+			let first = "Theodore"
+			let last = "Roosevelt"
+			let name = makeFullName(first,last);
+			alert(name);
+		}	
+		function makeFullName(given,family) {
+			return family + ", " + given;
+		}
+
+		function problem3() {
+			let answer = depreciation(1000.95,950.47,8);
+			alert(answer);
+		}
+		function depreciation(startValue,endValue,months){
+			let d = (startValue - endValue)/months;
+			return d;
+		}
+
+		function problem4() {
+			let arraylist = [-3,0,7.1,5];
+			let answer = getLast(arraylist);
+			alert(answer);
+		}
+		function getLast(list) {
+			return list[list.length -1];
+		}
+
+		function problem5() {
+			let arraylist = [70,1010,950,2014,6];
+			let answer = averageBig(arraylist);
+			alert(answer);
+		}
+		function averageBig(list) {
+			let sum = 0;
+			let i = 0;
+			while (i<list.length) {
+				sum += list[i];
+				i++;
+			}
+			let average = sum/list.length;
+			return average;
+		}
+		
+ 		
+	</script>
+
+</head>
+
+<body>
+
+    <h1>Sum of Ends</h1>
+<button onclick= "problem2()">Full Name</button>
+<button onclick = "problem3()">Depreciation</button>
+<button onclick="problem4()">Last List</button>
+<button onclick="problem5()">List Average</button>
+
+<div id="output"></div>
+
+</body>
+
+</html>

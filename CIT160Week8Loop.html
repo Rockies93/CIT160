@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sum of Odd Numbers</title>
+	<script type="text/javascript">
+		/* Defining Table 
+		Input: a number
+		Processing: determine all odd numbers between 1 and n. Add them together
+		Output: sum of odd numbers*/
+
+		function addOdd() {
+			let input= parseFloat(document.getElementById("number").value);
+			let sum = 0;
+
+			for (let i=1; i <= input; i+=2) {
+				sum += i;
+			}
+
+			document.getElementById("output").innerHTML = sum;
+		}	 
+
+
+	</script>
+</head>
+<body>
+	Enter a number here
+	<input type="text" id="number">
+	<button onclick="addOdd()">Enter</button>
+	<div id ="output"></div>
+</body>
+</html>

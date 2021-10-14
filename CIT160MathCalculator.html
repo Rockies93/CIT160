@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Math Quiz </title>
+	<script type="text/javascript">
+		function test() {
+			//Get numbers from user 
+			let x = parseFloat(document.getElementById('number1').value);
+			let y = parseFloat(document.getElementById('number2').value);
+			let z = parseFloat(document.getElementById('number3').value);
+			let operator = document.getElementById('symbol').value;
+
+			//
+			let correct = "Correct! Good job.";
+			let wrong = "Incorrect. Try Again!";
+			let add = x + y;
+			let minus = x - y;
+			let times = x * y;
+			let divide = x / y;
+
+			if (operator == "+") {
+				if (x + y == z) {
+					document.getElementById('answer').innerHTML = correct;
+				} 
+				else {
+					document.getElementById('answer').innerHTML = wrong;
+			}
+			}
+			else if (operator == "-") {
+				if (x - y == z) {
+					document.getElementById('answer').innerHTML = correct;
+				} 
+				else {
+					document.getElementById('answer').innerHTML = wrong;
+				}
+			}
+			else if (operator == "*") {
+				if (times == z) {
+					document.getElementById('answer').innerHTML = correct;
+				} 
+				else {
+					document.getElementById('answer').innerHTML = wrong;
+				}
+			}
+			else if (operator == "/") {
+				if (divide == z) {
+					document.getElementById('answer').innerHTML = correct;
+				} 
+				else {
+					document.getElementById('answer').innerHTML = wrong;
+				}
+			}
+			/*else {
+				document.getElementById('answer').innerHTML = wrong;
+			}*/
+
+
+		}
+	</script>
+</head>
+<body>
+	<h1>Test Your Math Skills</h1>
+	<input type="text" id="number1">
+	<input type="text" id="symbol">
+	<input type="text" id="number2">
+	=
+	<input type="text" id="number3">
+	<button onclick="test()">Check</button>
+	<div id="answer"></div>
+
+</body>
+</html>
